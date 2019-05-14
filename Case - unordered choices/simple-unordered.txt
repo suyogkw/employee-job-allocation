@@ -1,0 +1,3 @@
+simple allocation based on capacity. 
+if the number of people applying for job are less than capacity, allocation is done and the person is removed from list
+and iteratviely more allocations are done to maximize the total allocation percentage.
