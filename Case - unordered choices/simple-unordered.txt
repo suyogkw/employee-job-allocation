@@ -1,3 +1,10 @@
 simple allocation based on capacity. 
 if the number of people applying for job are less than capacity, allocation is done and the person is removed from list
 and iteratviely more allocations are done to maximize the total allocation percentage.
+
+In case of any circular allocation possible 'fairly', the allocation is done.
+fairness : if certain allocation is assumed for circular allocation checking, a possible outcome allocations are only fair when
+an employee who has applied for assumed allocated job, gets a job somewhere else.
+
+Ex. E1 - J1, J2, E2 - J1, J2. simple allocation : 0, Assumed allocation : E1 - J1. this makes final allocation E1-J1, E2-J2. 
+makes it a fair allocation as E2 has got a job somewhere.
